@@ -8,7 +8,7 @@ export const HeroContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 800px;
+  height: calc(100vh - 80px);
   position: relative;
   z-index: 1;
 
@@ -59,11 +59,11 @@ export const HeroH1 = styled.h1`
 
   @media screen and (max-width: 768px) {
     font-size: 40px;
-  }
+  };
 
   @media screen and (max-width: 480px) {
     font-size: 32px;
-  }
+  };
 `
 export const HeroP = styled.p`
   margin-top: 24px;
